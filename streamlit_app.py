@@ -68,6 +68,6 @@ if streamlit.button ('Add a fruit to the list list'):
     
 streamlit.write('Thanks for adding',add_my_fruit)
 
-streamlit.stop()
-
 my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from_streamlit')")
+
+streamlit.stop()
